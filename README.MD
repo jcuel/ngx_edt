@@ -8,7 +8,7 @@
 ##																									
 ###########################################################################################################
 
-* * USE DOCKERFILE FROM NGINX_CUSTOM_HOME * *
+*USE DOCKERFILE FROM NGINX_CUSTOM_HOME*
 
 #1) Create DOCKERFILE image running repo ngx_base (from git)
 
