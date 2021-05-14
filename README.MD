@@ -13,7 +13,7 @@
 #1) Create DOCKERFILE image running repo ngx_base (from git)
 
 ```
-root@containerhost:/home/instructor/projects/ngx_edt# git clone https://github.com/jcuel/ngx_home base
+root@containerhost:/home/instructor/projects/ngx_edt# git clone --recurse-submodules https://github.com/jcuel/ngx_home base
 root@containerhost:/home/instructor/projects/ngx_edt# cd base/
 root@containerhost:/home/instructor/projects/ngx_edt/base# docker build --tag="projects/ngx_home" /home/instructor/projects/ngx_edt/base/
 root@containerhost:/home/instructor/projects/ngx_edt/base# docker image ls
