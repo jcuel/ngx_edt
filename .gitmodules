@@ -1,0 +1,3 @@
+[submodule "ngx_home"]
+	path = ngx_home
+	url = https://github.com/jcuel/ngx_home
